@@ -404,6 +404,54 @@ thead{
     border-bottom: 1px solid #9a8e45;
 }
 
+.setkani-wrapper {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.setkani-wrapper h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.setkani-wrapper .date {
+    font-size: 1.6em;
+    color: #9a8e45;
+    margin-bottom: 30px;
+}
+
+#setkani-img {
+    background-image: url('/images/setkani/lisci-dark.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin: 30px 0;
+    border-top: 1px solid #9a8e45;
+    border-bottom: 1px solid #9a8e45;
+}
+
+.setkani-wrapper .info {
+    text-align: left;
+    max-width: 500px;
+    margin: 30px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.setkani-wrapper .info p {
+    color: white;
+    margin: 10px 0;
+}
+
+.setkani-wrapper .footer-info {
+    margin-top: 40px;
+    font-style: italic;
+    color: #9a8e45;
+}
+
+
 .center {
     text-align: center;
 }
