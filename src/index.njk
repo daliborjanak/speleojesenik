@@ -1,0 +1,24 @@
+---
+layout: layouts/layout.njk
+title: Aktuality
+---
+
+<h2>Aktuality</h2>
+
+{% for post in collections.posts | reverse %}
+  <h3>
+      {{ post.data.title }}
+      <span class="rightpost">
+      {{ post.data.meta }}
+      </span>
+  </h3>
+  
+  {{ post.content | safe }}
+
+  <p class="bottompost">
+      přidal: {{ post.data.author }}
+      | přidáno: {{ post.data.date | dateFilter }}
+  </p>
+{% endfor %}
+
+<a target="blank" href="/rss/rss-wall">rss <img src="/css/images/rss.png" title="Rss kanál" alt="Rss kanál"></a>

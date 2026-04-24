@@ -1,0 +1,14 @@
+---
+layout: layouts/layout.njk
+title: Lokality
+---
+
+<h2>Lokality</h2>
+
+<ul>
+{% for loc in collections.lokality %}
+  {% if loc.url != "/lokality/" %}
+  <li><a href="{{ loc.url }}">{{ loc.data.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
