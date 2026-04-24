@@ -404,6 +404,40 @@ thead{
     border-bottom: 1px solid #9a8e45;
 }
 
+#setkani {
+    background-image: url('/images/setkani/lisci-dark.png');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    min-height: 600px;
+    padding: 60px 40px;
+    color: white;
+    text-align: center;
+}
+
+#setkani h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#setkani .date {
+    font-size: 1.8em;
+    margin-bottom: 2em;
+}
+
+#setkani .info {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+#setkani .footer-info {
+    margin-top: 3em;
+    font-style: italic;
+}
+
 .center {
     text-align: center;
 }
