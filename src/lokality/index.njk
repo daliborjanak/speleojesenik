@@ -1,14 +1,85 @@
 ---
 layout: layouts/layout.njk
 title: Lokality
+extraHead: >
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
 ---
 
-<h2>Lokality</h2>
+<div id="map-wrap">
+  <div id="caves-map"></div>
+  <div id="lokality-panel">
+    <ul>
+    {% for loc in collections.lokality %}
+      {% if loc.url != "/lokality/" %}
+      <li><a href="{{ loc.url }}">{{ loc.data.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<ul>
-{% for loc in collections.lokality %}
-  {% if loc.url != "/lokality/" %}
-  <li><a href="{{ loc.url }}">{{ loc.data.title }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+<style>
+#map-wrap {
+  position: relative;
+  height: 620px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: -20px -20px 0;
+}
+#caves-map {
+  height: 100%;
+  width: 100%;
+}
+#lokality-panel {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(4px);
+  border-radius: 6px;
+  padding: 12px 18px;
+  min-width: 180px;
+}
+#lokality-panel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#lokality-panel li {
+  margin: 6px 0;
+  padding: 0;
+}
+#lokality-panel a {
+  color: #e8e8e8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+}
+#lokality-panel a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+</style>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+(function () {
+  var map = L.map('caves-map').setView([50.258, 17.118], 12);
+
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    maxZoom: 19
+  }).addTo(map);
+
+  fetch('/js/caves.json')
+    .then(function(r) { return r.json(); })
+    .then(function(caves) {
+      caves.forEach(function(cave) {
+        L.marker([cave.lat, cave.lng])
+          .addTo(map)
+          .bindPopup('<strong>' + cave.name + '</strong>');
+      });
+    });
+})();
+</script>

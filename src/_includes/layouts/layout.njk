@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/speleo.css">
     <link rel="shortcut icon" href="/favicon.ico">
     <script type="text/javascript" src="/js/ga.js"></script>
+    {% if extraHead %}{{ extraHead | safe }}{% endif %}
   </head>
   <body>
     <div id="page">
