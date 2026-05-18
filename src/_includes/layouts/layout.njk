@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Speleologická, skupina, Sever, 7-04, jeskyně na pomezí, Rasovna, Liščí díra">
-    <meta name="description" content="Stránky speleologické skupiny Sever. Skupina Sever spravuje nepřístupné jeskyně a krasové jevy Rychlebských hor, především pak oblast Pomezí, kde je soustředěno nejvíce jeskyní.">
+    <meta name="description" content="{{ description or 'Stránky speleologické skupiny Sever. Skupina Sever spravuje nepřístupné jeskyně a krasové jevy Rychlebských hor, především pak oblast Pomezí, kde je soustředěno nejvíce jeskyní.' }}">
     <meta name="author" content="SEVER; Dalibor Janák">
+    <meta property="og:title" content="{{ title }} | Speleologická skupina SEVER">
+    <meta property="og:description" content="{{ description or 'Stránky speleologické skupiny Sever. Skupina Sever spravuje nepřístupné jeskyně a krasové jevy Rychlebských hor, především pak oblast Pomezí, kde je soustředěno nejvíce jeskyní.' }}">
+    <meta property="og:type" content="website">
     <title>{{ title }} | Speleologická skupina SEVER</title>
     <link rel="stylesheet" href="/css/speleo.css">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -16,23 +19,23 @@
       <div id="header">
         <h1>Speleologická skupina SEVER</h1>
         <div id="nav">
-          <button id="menu-toggle" aria-label="Menu">
+          <button id="menu-toggle" aria-label="Menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
           </button>
           <ul id="menu">
-            <li id="home">
+            <li id="home"{% if page.url == "/" %} class="active"{% endif %}>
               <a href="/">
                 <img src="/css/images/home.png" alt="Domů">
               </a>
             </li>
-            <li><a href="/o-skupine/">o skupině</a></li>
-            <li><a href="/clanky/">články</a></li>
-            <li><a href="http://speleojesenik.rajce.idnes.cz" target="_blank">galerie</a></li>
-            <li><a href="/lokality/">lokality</a></li>
-            <li><a href="/kontakt/">kontakt</a></li>
-            <li><a href="/setkani-2026/">setkání 2026</a></li>
+            <li{% if "/o-skupine" in page.url %} class="active"{% endif %}><a href="/o-skupine/">o skupině</a></li>
+            <li{% if "/clanky" in page.url %} class="active"{% endif %}><a href="/clanky/">články</a></li>
+            <li><a href="http://speleojesenik.rajce.idnes.cz" target="_blank" rel="noopener">galerie</a></li>
+            <li{% if "/lokality" in page.url %} class="active"{% endif %}><a href="/lokality/">lokality</a></li>
+            <li{% if "/kontakt" in page.url %} class="active"{% endif %}><a href="/kontakt/">kontakt</a></li>
+            <li{% if "/setkani" in page.url %} class="active"{% endif %}><a href="/setkani-2026/">setkání 2026</a></li>
           </ul>
         </div>
       </div>
@@ -44,8 +47,12 @@
       </div>
     </div>
     <script>
-      document.getElementById('menu-toggle').addEventListener('click', function() {
-        document.getElementById('menu').classList.toggle('open');
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.getElementById('menu');
+      toggle.addEventListener('click', function() {
+        const isOpen = menu.classList.toggle('open');
+        toggle.classList.toggle('open', isOpen);
+        toggle.setAttribute('aria-expanded', String(isOpen));
       });
     </script>
   </body>
