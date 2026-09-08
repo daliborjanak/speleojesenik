@@ -10,9 +10,38 @@ layout: layouts/layout.njk
 
 <p><a href="https://forms.gle/5mTZS8Qa6wK61V6d9" target="_blank">Registrace s možností rezervace ubytování</a></p>
 
+<h2>Program</h2>
+
+<table style="width:100%; border-collapse:collapse; margin:15px 0;">
+<caption style="text-align:left; color:#9a8e45; font-size:1.2em; margin-bottom:8px;">pátek 11. 9. 2026</caption>
+<tbody>
+<tr><th style="width:90px; text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">19:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Zahájení</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">19:30</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Přednáška: O jeskyních v Rychlebských horách</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">20:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Křest knihy Kras Rychlebských hor</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">21:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Posezení s kytarou</td></tr>
+</tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse; margin:15px 0;">
+<caption style="text-align:left; color:#9a8e45; font-size:1.2em; margin-bottom:8px;">sobota 12. 9. 2026</caption>
+<tbody>
+<tr><th style="width:90px; text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">9:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Exkurze – Rasovna, Liščí díra, Roušarova jeskyně (Vápenná), Povrchová exkurze</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">14:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Exkurze – Rasovna, Liščí díra, Roušarova jeskyně (Vápenná), Povrchová exkurze</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">19:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Přednáška: Tvorba map pro knihu</td></tr>
+<tr><th style="text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">20:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Posezení s kytarou</td></tr>
+</tbody>
+</table>
+
+<table style="width:100%; border-collapse:collapse; margin:15px 0;">
+<caption style="text-align:left; color:#9a8e45; font-size:1.2em; margin-bottom:8px;">neděle 13. 9. 2026</caption>
+<tbody>
+<tr><th style="width:90px; text-align:left; color:#9a8e45; font-weight:normal; border:1px solid #2a2a2a; padding:8px 12px;">9:00</th><td style="border:1px solid #2a2a2a; padding:8px 12px;">Exkurze – Rasovna, Liščí díra, Roušarova jeskyně (Vápenná), Povrchová exkurze</td></tr>
+</tbody>
+</table>
+
 <br>
 
-<h2>Místo konání a ubytování</h2>
+<h2>Místo konání</h2>
 <p>Zázemím pro celý víkend se stane turistická chata Smrčník, která se nachází v lokalitě Na Pomezí u Jeseníku. Tato strategická poloha v těsné blízkosti známých jeskyní umožňuje snadný přístup k lokalitám plánovaných exkurzí. Pro účastníky je připravena možnost ubytování přímo v kapacitách chaty, pro příznivce klasičtějšího expedičního stylu je k dispozici plocha pro vlastní stany v areálu. Stravování a drobné občerstvení bude zajištěno po celou dobu konání akce přímo na místě.</p>
 
 <iframe style="border:none" src="https://mapy.com/s/papopazasa" width="400" height="280" frameborder="0"></iframe>
@@ -32,7 +61,7 @@ layout: layouts/layout.njk
 
 <br>
 
-<h2>Program a exkurze</h2>
+<h2>Exkurze</h2>
 <p>Odborný program se zaměří na exkurze do vybraných jeskynních systémů v širším okolí, a to jak do prostor běžně přístupných, tak i do lokalit vyžadujících specifické technické vybavení. Večery budou patřit společenskému programu u táboráku a tematickému promítání, které představí nejzajímavější objevy a dokumentaci z domácích i zahraničních expedic posledních let. Přesný rozpis exkurzí sepíšeme v pátek tak, aby bylo možné během soboty a neděle navštívit všechny lokality.</p>
 
 <p>Povrchová exkurze je nenáročná procházka lesem po lokalitách Na Pomezí, cca 5 km.</p>
@@ -45,9 +74,6 @@ layout: layouts/layout.njk
 </ul>
 <p>Na exkurze Na Pomezí (Rasovna a Liščí díra) se jde pěšky cca 500 m, do Vápenné (Roušarova jeskyně) cca 10 km se jede autem. Podrobnosti k exkurzím se dozvíte na místě.</p>
 <p>Pro účast na podzemních exkurzích je nutné vyplnit prohlášení o bezpečnosti pro účastníky exkurzí. Formulář můžete vyplnit předem, nebo na místě při registraci.</p>
-
-<br>
-<img src="/images/setkani/program-2026.png" alt="Program setkání 2026" style="max-width:100%; border: 1px #9a8e45 solid">
 
 <br>
 
