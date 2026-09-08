@@ -17,19 +17,42 @@ layout: layouts/layout.njk
 
 <iframe style="border:none" src="https://mapy.com/s/papopazasa" width="400" height="280" frameborder="0"></iframe>
 
+<h2>Ceny a podmínky ubytování</h2>
+<ul>
+<li>Stan a auto: 100 Kč / osoba / 2 noci.</li>
+<li>Chata (turistická ubytovna): 600 Kč / osoba / 2 noci, nástup možný v pátek po 15. hodině. Cena zahrnuje ložní prádlo, spacák tedy není potřeba.</li>
+</ul>
+<p>K dispozici je 7× WC a 7× sprcha, a to i pro ubytované ve stanu. Pokoje na chatě jsou 4lůžkové (2 lůžka a patrová postel). Pokud chcete bydlet s konkrétní osobou, dejte nám vědět předem a místo vám obsadíme – jinak budeme ubytování na chatě přidělovat postupně podle příjezdu. Chata je již plně obsazená, proto pokud máte objednané ubytování a nemůžete přijet, dejte nám co nejdříve vědět, ať můžeme místo uvolnit.</p>
+<p>Pokud přijedete se psem, mějte ho prosím pod kontrolou – v areálu bude větší pohyb osob a dětí.</p>
+
+<br>
+
+<h2>Stravování</h2>
+<p>Akce se koná za každého počasí. Je možné udělat venku táborák, nebo využít velkou společenskou místnost. Připravíme guláš, luštěninovou polévku, klobásy, párky, utopence, chleba s pomazánkou, drobné pochutiny a buchty na snídani. K dispozici bude točené pivo a kofola, teplé i studené alko a nealko nápoje – vše za příznivé ceny.</p>
+
 <br>
 
 <h2>Program a exkurze</h2>
-<p>Odborný program se zaměří na exkurze do vybraných jeskynních systémů v širším okolí, a to jak do prostor běžně přístupných, tak i do lokalit vyžadujících specifické technické vybavení. Večery budou patřit společenskému programu u táboráku a tematickému promítání, které představí nejzajímavější objevy a dokumentaci z domácích i zahraničních expedic posledních let. Kompletní harmonogram exkurzí a rozpis večerních přednášek bude na místě.</p>
+<p>Odborný program se zaměří na exkurze do vybraných jeskynních systémů v širším okolí, a to jak do prostor běžně přístupných, tak i do lokalit vyžadujících specifické technické vybavení. Večery budou patřit společenskému programu u táboráku a tematickému promítání, které představí nejzajímavější objevy a dokumentaci z domácích i zahraničních expedic posledních let. Přesný rozpis exkurzí sepíšeme v pátek tak, aby bylo možné během soboty a neděle navštívit všechny lokality.</p>
+
+<p>Povrchová exkurze je nenáročná procházka lesem po lokalitách Na Pomezí, cca 5 km.</p>
+
+<p>Pro podzemní exkurze je potřeba základní vybavení – helma, světlo, overal; přestože v jeskyních není voda, doporučujeme i holínky.</p>
+<ul>
+<li><strong>Liščí díra</strong> – horizontální systém, krátké plazivky a větší prostory.</li>
+<li><strong>Roušarova jeskyně</strong> – vstup v lomové stěně, horizontální systém</li>
+<li><strong>Rasovna</strong> – pro sestup na dno je nutno sedák s odsedkou, je zde vystrojený úsek s dojištěním. Druhá skupina půjde do středových partií jeskyně.</li>
+</ul>
+<p>Na exkurze Na Pomezí (Rasovna a Liščí díra) se jde pěšky cca 500 m, do Vápenné (Roušarova jeskyně) cca 10 km se jede autem. Podrobnosti k exkurzím se dozvíte na místě.</p>
+<p>Pro účast na podzemních exkurzích je nutné vyplnit prohlášení o bezpečnosti pro účastníky exkurzí. Formulář můžete vyplnit předem, nebo na místě při registraci.</p>
 
 <br>
 
 <h2>Jeskyně</h2>
-
+<p>Povrchová exkurze</p>
 <p>Na Pomezí- Liščí díra</p>
 <p>Na Pomezí - Rasovna</p>
-<p>Povrchová exkurze s Přístupnými jeskyněmi</p>
-<p>Vápenná - Roušarova, Velký dóm</p>
+<p>Vápenná - Roušarova</p>
 <p>Dle domluvy</p>
 
 <p><a href="https://fb.me/e/68g6fnVTc" target="_blank">Událost na Facebooku</a></p>
