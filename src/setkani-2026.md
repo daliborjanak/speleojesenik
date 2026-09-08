@@ -47,6 +47,9 @@ layout: layouts/layout.njk
 <p>Pro účast na podzemních exkurzích je nutné vyplnit prohlášení o bezpečnosti pro účastníky exkurzí. Formulář můžete vyplnit předem, nebo na místě při registraci.</p>
 
 <br>
+<img src="/images/setkani/program-2026.png" alt="Program setkání 2026" style="max-width:100%; border: 1px #9a8e45 solid">
+
+<br>
 
 <h2>Jeskyně</h2>
 <p>Povrchová exkurze</p>
